@@ -1,0 +1,30 @@
+# Github Actions video test
+
+name: test-video
+
+# Action on push or pull request only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  run_test:
+    
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - name: Git clone 
+      uses: actions/checkout@v2
+
+    - name: Current folder
+      run: ls -la
+
+    - name: Install
+      run: npm install
+    
+    - name: Check folder
+      run: ls -la
