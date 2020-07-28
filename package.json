@@ -1,0 +1,26 @@
+{
+  "name": "test-video",
+  "version": "1.0.0",
+  "description": "Test video in player",
+  "main": "codecept.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkuprina/test-video.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkuprina/test-video/issues"
+  },
+  "homepage": "https://github.com/tkuprina/test-video#readme",
+  "dependencies": {
+    "codeceptjs": "^2.6.6",
+    "puppeteer": "^5.2.1"
+  }
+}
