@@ -20,14 +20,8 @@ jobs:
     - name: Git clone 
       uses: actions/checkout@v2
 
-    - name: Current folder
-      run: ls -la
-
     - name: Install
       run: npm install
-    
-    - name: Check folder
-      run: ls -la
    
     - name: Install Chrome
       run: |
