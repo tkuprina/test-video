@@ -14,8 +14,6 @@ jobs:
   run_test:
     
     runs-on: ubuntu-latest
-    env:
-      CHROME_PATH: /usr/bin/google-chrome 
     
     steps:
     
@@ -44,3 +42,5 @@ jobs:
            
     - name: Run test
       run: npx codeceptjs run --steps
+      env:
+         CHROME_PATH: /usr/bin/google-chrome 
