@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tkuprina/test-video#readme",
   "dependencies": {
-    "codeceptjs": "^2.6.6",
+    "codeceptjs": "^3.0.0",
     "puppeteer": "^5.2.1"
   }
 }
